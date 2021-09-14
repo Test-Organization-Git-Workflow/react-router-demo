@@ -26,12 +26,10 @@ const Green = (props) => {
   );
 };
 
-
-const Gold = (props) => {
+const Magenta = (props) => {
   return (
-    <div className="gold">
-      <h1>GOLD</h1>
-
+    <div className="magenta">
+      <h1>Magenta</h1>
     </div>
   );
 };
@@ -45,8 +43,7 @@ const Main = (props) => {
         <Link to="/red">Go to Red</Link>
         <Link to="/green">Go to Green</Link>
 
-        <Link to="/gold">Go to Gold</Link>
-
+        <Link to="/magenta">Go to Magenta</Link>
       </div>
 
       <div id="main-section">
@@ -55,7 +52,7 @@ const Main = (props) => {
         <Route path="/red" component={Red} />
         <Route path="/green" component={Green} />
 
-        <Route path="/gold" component={Gold} />
+        <Route path="/magenta" component={Magenta} />
 
         <Route exact path="/" component={Red} />
       </div>
