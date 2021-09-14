@@ -44,3 +44,13 @@ body > div {
   background-color: #275db3;
   color: white;
 }
+
+.green {
+  background-color: rgb(20, 124, 20);
+  color: white;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
