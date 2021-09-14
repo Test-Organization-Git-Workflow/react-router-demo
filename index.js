@@ -18,6 +18,14 @@ const Blue = (props) => {
   );
 };
 
+const Purple = (props) => {
+  return (
+    <div className="purple">
+      <h1>PURPLE</h1>
+    </div>
+  );
+};
+
 const Main = (props) => {
   return (
     <div id="container">
@@ -25,12 +33,14 @@ const Main = (props) => {
         {/* vv Navigation vv */}
         <Link to="/blue">Go to Blue</Link>
         <Link to="/red">Go to Red</Link>
+        <Link to="/purple">Go to Purple</Link>
       </div>
 
       <div id="main-section">
         {/* vv Routes vv */}
         <Route path="/blue" component={Blue} />
         <Route path="/red" component={Red} />
+        <Route path="/purple" component={Purple} />
         <Route exact path="/" component={Red} />
       </div>
     </div>
