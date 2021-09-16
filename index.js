@@ -52,7 +52,7 @@ const Main = (props) => {
         <Route path="/red" component={Red} />
         <Route path="/green" component={Green} />
 
-        <Route path="/purple" component={Purple} />
+        <Route path="/yellow" component={Yellow} />
 
         <Route exact path="/" component={Red} />
       </div>
