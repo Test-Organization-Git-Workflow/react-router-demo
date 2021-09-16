@@ -26,10 +26,10 @@ const Green = (props) => {
   );
 };
 
-const Gray = (props) => {
+const Yellow = (props) => {
   return (
-    <div className="gray">
-      <h1>Gray</h1>
+    <div className="yellow">
+      <h1>Yellow</h1>
     </div>
   );
 };
@@ -43,7 +43,7 @@ const Main = (props) => {
         <Link to="/red">Go to Red</Link>
         <Link to="/green">Go to Green</Link>
 
-        <Link to="/gray">Go to Gray</Link>
+        <Link to="/yellow">Go to Yellow</Link>
       </div>
 
       <div id="main-section">
