@@ -33,7 +33,6 @@ const Pink = (props) => {
     </div>
   );
 };
-
 const Main = (props) => {
   return (
     <div id="container">
